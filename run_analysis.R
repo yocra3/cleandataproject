@@ -87,4 +87,4 @@ for(i in 1:length(newdata)){
         }
 }
 rownames(finaldataset) <- 1:dim(finaldataset)[1]
-write.table(finaldataset, "./secondataset.txt", row.names=FALSE)
+write.table(finaldataset, "./secondataset.txt", row.names=FALSE, quote=FALSE)
